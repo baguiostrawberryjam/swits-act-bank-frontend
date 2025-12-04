@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import './App.css'
 import Account from './pages/Account'
 import Transactions from './pages/Transactions'
 import LayoutWrapper from './components/Layout/LayoutWrapper'
