@@ -22,7 +22,7 @@ export default function SidebarSection({
           
           {onToggleCollapse && (
             <button
-              className="p-1 hover:bg-gray-200 rounded text-gray-400 transition-colors"
+              className="p-1 hover:bg-gray-200 rounded text-gray-400 transition-colors cursor-pointer"
             >
               <ChevronDown 
                 size={14} 

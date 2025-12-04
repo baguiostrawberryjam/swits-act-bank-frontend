@@ -26,15 +26,15 @@ function SidebarContainer({ isOpen, toggleSidebar }) {
         <div className={`flex items-center gap-3 overflow-hidden transition-all duration-300 ${isOpen ? "w-auto opacity-100" : "w-0 opacity-0"}`}>
           {/* You can put an <img> logo here */}
           <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold">
-            A
+            B
           </div>
-          <span className="text-xl font-bold text-gray-800 tracking-tight">atom</span>
+          <span className="text-xl font-bold text-gray-800 tracking-tight">Bank App</span>
         </div>
 
         {/* Toggle Button */}
         <button 
           onClick={toggleSidebar} 
-          className="p-2 rounded-lg text-gray-400 hover:bg-gray-100 hover:text-gray-600 transition-colors"
+          className="p-2 rounded-lg text-gray-400 hover:bg-gray-100 hover:text-gray-600 transition-colors cursor-pointer"
         >
           {isOpen ? <PanelLeftClose size={20} /> : <PanelLeftOpen size={20} />}
         </button>
