@@ -51,7 +51,7 @@ function SidebarItem({
 
         {/* Sub-menu Dropdown */}
         {dropdownOpen && isSidebarOpen && (
-          <ul className="mt-1 ml-9 space-y-1 border-l-2 border-gray-100 pl-2">
+          <ul className="mt-1 ml-9 space-y-1 border-l-2 border-gray-100">
             {subItems.map((item) => (
               <li key={item}>
                 <Link
