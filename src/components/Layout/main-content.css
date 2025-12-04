@@ -1,0 +1,11 @@
+.main-content {
+    flex: 1;
+    background-color: var(--background); /* match your design */
+    color: var(--text-primary);
+    border: 1px solid var(--stroke-light);
+    border-top: none;
+    border-radius: 0 0 24px 24px;
+    margin: 0 10px 10px 0px;
+    font-family: var(--font-subtitle);
+    overflow: auto;
+}
